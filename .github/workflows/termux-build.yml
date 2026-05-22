@@ -34,7 +34,7 @@ jobs:
           --compatibility manylinux2014
 
     - name: Upload wheel
-      uses: actions/upload-artifact@v8
+      uses: actions/upload-artifact@v4
       with:
         name: frida-ui-termux
         path: target/aarch64-unknown-linux-gnu/release/wheels/*.whl
